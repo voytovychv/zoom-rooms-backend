@@ -1,0 +1,20 @@
+---
+spring:
+    profiles: dev
+    datasource:
+        driverClassName: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://165.227.171.128:3306/zplannerDev
+        username: hd
+        password: Heidelberg1!
+        hikari:
+            hikari.maximum-pool-size: 1
+
+server:
+    port: 9001
+
+---
+
+spring:
+    profiles: production
+server:
+    port: 80
