@@ -22,6 +22,7 @@
 		<cdsdk.version>^3</cdsdk.version>
 		<node.version>v12.16.1</node.version>
 		<node.url>https://nodejs.org/dist/</node.url>
+	    <failOnMissingWebXml>false</failOnMissingWebXml>   
 	</properties>
 
 	<modules>
